@@ -1,0 +1,19 @@
+@import './colors.css';
+
+html {
+    color-scheme: dark light;
+    font-family: system-ui, sans-serif;
+    font-size: 20px;
+}
+
+body {
+    background-color: var(--theme-bg-highlight);
+    contain: content;
+    margin: 2rem auto;
+    max-width: 40ch;
+    padding: 1rem;
+}
+
+.active {
+    text-decoration: underline;
+}
