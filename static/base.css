@@ -13,7 +13,3 @@ body {
     max-width: 40ch;
     padding: 1rem;
 }
-
-.active {
-    text-decoration: underline;
-}
