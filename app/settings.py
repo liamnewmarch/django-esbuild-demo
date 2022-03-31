@@ -10,6 +10,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 DEBUG = True
 
 INSTALLED_APPS = [
+    "app.esbuild",
     "django.contrib.auth",
     "django.contrib.contenttypes",
     "django.contrib.staticfiles",
@@ -19,6 +20,7 @@ ROOT_URLCONF = "app.urls"
 
 SECRET_KEY = get_random_secret_key()
 
+STATIC_ROOT = BASE_DIR / "static"
 STATIC_URL = "http://localhost:8001/"
 
 TEMPLATES = [
